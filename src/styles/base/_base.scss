@@ -1,0 +1,26 @@
+* {
+  font-family: 'Montserrat' !important;
+  color: #444 !important;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif !important;
+  font-size: $m-size;
+  color: #444;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
